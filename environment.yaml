@@ -1,0 +1,22 @@
+name: robot_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pinocchio
+  - eigenpy
+  - casadi
+  - mujoco
+  - example-robot-data
+  - pip
+  - pip:
+    - pygame
+    - imagezmq
+    - matplotlib==3.10.7
+    - opencv-python==4.12.0.88
+    - vuer==0.0.68
+    - aiortc==1.8.0
+    - av==11.0.0
+    - aiohttp==3.9.5
+    - aiohttp_cors==0.7.0
